@@ -7,4 +7,7 @@
 ## 기본 페이지 구성
 - Sign In
 - Sign Up
-- Sub Page
+- About
+- Contact
+- Profile
+- Sub Pages
