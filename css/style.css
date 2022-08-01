@@ -1,19 +1,20 @@
 /* 개별적인 속성들을 정의 */
 header {
     height: 100px;
+    background-color: #eee;
 }
 header .inner {
     display: flex;
     justify-content: space-between;
     height: 100%;
     align-items: flex-end;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
 }
 .nav {
     display: flex;
 }
 .nav li {
-    margin-left: 63px;
+    margin-left: 48px;
 }
 
 .visual {
@@ -148,12 +149,41 @@ p.sub_txt {
 }
 
 footer {
-    background-color: #f5f5f5;
-    padding: 50px 0;
+    background-color: #717171;
+    padding: 30px 0;
 }
 footer .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+footer ul li a {
+    color: white;
 }
 
+.about p {
+    width: 550px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.about h2 {
+    margin-bottom: 30px;
+}
+
+.profile .txt_wrap {
+    width: 550px;
+    margin: auto;
+}
+
+.profile_list {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.profile_list li {
+    padding: 20px;
+    display: flex;
+}
+.profile_list li .name_col {
+    width: 200px;
+}

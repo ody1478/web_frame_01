@@ -18,7 +18,7 @@ a {
     position: relative;
     max-width: 1200px;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* 폰트 관련 속성 정의 */
@@ -30,8 +30,14 @@ h1 {
 }
 .nav li a {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 360;
 }
+.nav li a:hover {
+    color: orangered;
+    /* font-size: 2.2rem; */
+    /* font-weight: 500; */
+}
+
 h2.title_big {
     font-size: 6.2rem;
     font-weight: 500;
@@ -74,6 +80,7 @@ a.cont_btn::after {
 .depth {
     position: relative;
     padding: 100px 0;
+    /* background-color: #f0f0f0; */
 }
 .txt_center {
     text-align: center;
@@ -105,3 +112,53 @@ h3 {
     font-size: 1.7rem;
     font-weight: 200;
 }
+
+/* 이하 추가 */
+
+.head_shadow {
+    box-shadow: 5px 5px #efefef;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 550px;
+    margin: auto;
+}
+form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+textarea,
+input[type=submit],
+input[type=password],
+input[type=email],
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+ 
+form label {
+    width: 100%;
+    /* padding: 12px; */
+    margin: 16px 0px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+input[type=submit] {
+    font-size: 2rem;
+    margin-top: 16px;
+    border-radius: 0px;
+    background-color: #d1d1d1;
+}
+input[type=submit]:hover {
+    background-color: #aaa;
+}
+
